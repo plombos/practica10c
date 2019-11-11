@@ -36,7 +36,7 @@ public class CloudantPalabraStore
 		CloudantClient cloudant = createClient();
 		if(cloudant!=null){
 		 db = cloudant.database(databaseName, true);
-		}
+		} 
 	}
 	
 	public Database getDB(){
